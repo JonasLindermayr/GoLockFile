@@ -1,0 +1,17 @@
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+/bin/
+/pkg/
+
+.idea/
+.vscode/
+
+.DS_Store
+
+*.log
+*.tmp
+*.out
