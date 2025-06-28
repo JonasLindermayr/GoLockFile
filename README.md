@@ -45,13 +45,13 @@ go build -o build/GoLockFile.exe ./cmd
 ### Hilfe anzeigen
 
 ```bash
-./golockfile help
+golockfile help
 ```
 
 ### Datei verschlüsseln
 
 ```bash
-./golockfile encrypt -file <Dateipfad> -p <Passwort>
+golockfile encrypt -file <Dateipfad> -p <Passwort>
 ```
 
 #### Optionale Parameter:
@@ -60,13 +60,13 @@ go build -o build/GoLockFile.exe ./cmd
 -n <Name> → Neuen Dateinamen vergeben
 -w → Originaldatei nach der Verschlüsselung löschen
 
-./golockfile encrypt -file geheim.txt -p meinpasswort -n verschluesselt -w
+golockfile encrypt -file geheim.txt -p meinpasswort -n verschluesselt -w
 ```
 
 ### Datei entschlüsseln
 
 ```bash
-./golockfile decrypt -file <Dateipfad> -p <Passwort>
+golockfile decrypt -file <Dateipfad> -p <Passwort>
 ```
 
 #### Optionale Parameter:
@@ -74,7 +74,7 @@ go build -o build/GoLockFile.exe ./cmd
 ```bash
 -w → Verschlüsselte Datei nach der Entschlüsselung löschen
 
-./golockfile decrypt -file geheim.txt.locked -p meinpasswort -w
+golockfile decrypt -file geheim.txt.locked -p meinpasswort -w
 ```
 
 ## 📌 Hinweise
