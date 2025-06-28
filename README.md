@@ -23,6 +23,11 @@ Ein einfaches CLI-Tool zum Verschlüsseln und Entschlüsseln von Dateien mit AES
 
 ## 📑 Build-Anleitung
 
+Download
+```bash
+https://github.com/JonasLindermayr/GoLockFile/releases/tag/v1.0.0
+```
+
 ### macOS / Linux
 
 ```bash
