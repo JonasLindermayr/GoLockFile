@@ -1,8 +1,6 @@
 # GoLockFile 🔒
 
 Ein einfaches CLI-Tool zum Verschlüsseln und Entschlüsseln von Dateien mit AES-GCM Verschlüsselung.  
-Ideal für Entwickler und Technikaffine, die ihre Dateien schnell und sicher schützen möchten — direkt über das Terminal.
-
 ---
 
 ## 📦 Features
