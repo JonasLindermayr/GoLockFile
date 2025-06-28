@@ -74,7 +74,7 @@ golockfile decrypt -file <Dateipfad> -p <Passwort>
 ```bash
 -w → Verschlüsselte Datei nach der Entschlüsselung löschen
 
-golockfile decrypt -file geheim.txt.locked -p meinpasswort -w
+golockfile decrypt -file geheim.txt -p meinpasswort -w
 ```
 
 ## 📌 Hinweise
